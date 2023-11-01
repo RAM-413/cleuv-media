@@ -17,112 +17,136 @@
 </head>
 
 <body>
-    <nav class="nav-bg py-3  z-7 position-relative position-fixed top-0 start-0 w-100">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center w-100">
-                <img src="./assets/images/nav-logo.svg" alt="images">
+    <header class="position-relative overflow-hidden z-3">
+        <img src="./assets/images/light-1.png" alt="light" class="position-absolute z-2">
+        <nav class="nav-bg py-4 position-fixed z-3 w-100 top-0 start-0">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <ul class="ps-0 mb-0">
+                        <li><a href="#" class="text-decoration-none"><img src="./assets/images/nav-logo.svg"
+                                    alt="navlogo"></a></li>
+                    </ul>
+                    <div class=" d-flex align-items-center gap-41">
+                        <label id="nav" class="nav">
+                            <span class="span1"></span>
+                            <span class="span2"></span>
+                            <span class="span3"></span>
+                        </label>
+                        <ul class="ps-0 mb-0 d-flex align-items-lg-center gap-41 menubar">
+                            <li class="ps-0 mb-0 d-block d-lg-none mb-5">
+                                <a href="#" class="text-decoration-none"><img src="./assets/images/nav-logo.svg"
+                                        alt="navlogo"></a>
+                            </li>
 
-                <label for="menuicon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-                <input type="checkbox" id="menuicon" hidden>
-
-                <ul class=" d-flex align-items-center gap-5  mb-0 p-0 mobile_view">
-                    <li class="list-unstyled"><a
-                            class=" ms-lg-3  ps-lg-3 grey position-relative ff-montserrat fw-400 fs-sm text-decoration-none home"
-                            href="#">Home</a></li>
-                    <li class="list-unstyled"><a
-                            class="grey position-relative ff-montserrat fw-400 fs-sm text-decoration-none home"
-                            href="#hub">
-                            About</a></li>
-                    <li class="list-unstyled"><a
-                            class=" grey position-relative ff-montserrat fw-400 fs-sm text-decoration-none home"
-                            href="#benefits">Service</a></li>
-                    <li class="list-unstyled"><a
-                            class=" grey position-relative ff-montserrat fw-400 fs-sm text-decoration-none home"
-                            href="#programs">About</a></li>
-                    <li class="list-unstyled  me-xl-5 "><a
-                            class=" grey position-relative ff-montserrat fw-400 fs-sm text-decoration-none home"
-                            href="#">
-                            Faq</a></li>
-                    <li
-                        class=" text-white ff-montserrat position-relative fw-400 fs-sm text-decoration-none btn-login curser-pointer">
-                        Login</li>
-                </ul>
+                            <li class="position-relative small-screen mt-0"><a href="#home"
+                                    class="text-decoration-none color-white ff-montserrat fw-400 fs-sm  position-relative home-1">Home</a>
+                            </li>
+                            <li class="position-relative small-screen"><a href="#about"
+                                    class="text-decoration-none color-white ff-montserrat fw-400 fs-sm  position-relative home-1">About</a>
+                            </li>
+                            <li class="position-relative small-screen"><a href="#services"
+                                    class="text-decoration-none color-white ff-montserrat fw-400 fs-sm  position-relative home-1">Services</a>
+                            </li>
+                            <li class="position-relative small-screen"><a href="#pricing"
+                                    class="text-decoration-none color-white ff-montserrat fw-400 fs-sm  position-relative home-1">Pricing</a>
+                            </li>
+                            <li class="position-relative small-screen"><a href="#faq"
+                                    class="text-decoration-none color-white ff-montserrat fw-400 fs-sm  position-relative home-1">FAQ</a>
+                            </li>
+                        </ul>
+                        <ul class="ps-0 mb-0 d-flex align-items-center ms-5  d-none d-lg-block">
+                            <li class="ms-4"><a href="#"
+                                    class="text-decoration-none color-white ff-montserrat fw-600 fs-sm btn-login">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-    </nav>
-
-    <section
-        class="light-black-1 h-722 flex-grow-1 d-flex flex-column justify-content-center mt-85 position-relative z-1 overflow-hidden">
-        <img src="./assets/images/header-e-1.png" alt="elipse" class="position-absolute start-0 top-0 mt-5 elipse z-1">
-        <img src="./assets/images/header-e-2.png" alt="elipse" class="position-absolute end-0 top-0 mt-5 elipse z-1">
-        <img src="./assets/images/header-e-3.png" alt="elipse"
-            class="position-absolute start-0 bottom-0 mb-5 elipse z-1">
-        <img src="./assets/images/header-e-4.png" alt="elipse" class="position-absolute end-0 bottom-0 elipse z-1">
-        <div class="container position-relative z-2">
-            <img src="./assets/images/header-1.png" alt="elipse" class="position-absolute  elipse-1 top-0 start-0 ms-5">
-            <img src="./assets/images/header2.png" alt="elipse"
-                class="position-absolute  elipse-1 top-0 end-0 me-5 pe-5">
-            <img src="./assets/images/header-3.png" alt="elipse"
-                class="position-absolute elipse-1 bottom-0 start-0 ms-5 ps-5">
-            <img src="./assets/images/header-4.png" alt="elipse"
-                class="position-absolute elipse-1 bottom-0 end-0 me-5 pe-5">
-            <h1 class="fs-2lg fw-600 color-white ff-montserrat text-center mx-auto max-800">Our Agency Brings
-                Your
-                Vision
-                to
-                Life </h1>
-            <p class="fs-sm fw-400 mx-auto text-center ff-montserrat pb-3 color-white max-730">At Cleauv
-                Media, we
-                are
-                all
-                about creativity. Our team of experts
-                specializes in delivering innovative solutions that
-                capture the essence of your brand and bring it to life in new and exciting ways.</p>
-            <button class="btn-contact mx-auto color-white">Contact Us</button>
-        </div>
-    </section>
-    <section class="py-5 color-white-1 overflow-hidden">
+        </nav>
+        <section
+            class="light-black-1 flex-grow-1 min-vh-100  d-flex flex-column justify-content-center  position-relative z-1 overflow-hidden pt-5 mt-5">
+            <img src="./assets/images/header-e-1.png" alt="elipse" class="position-absolute start-0  elipse-3 z-1">
+            <img src="./assets/images/header-e-2.png" alt="elipse" class="position-absolute end-0  elipse-3 z-1">
+            <img src="./assets/images/header-e-3.png" alt="elipse"
+                class="position-absolute start-0 bottom-0 mb-5  z-1 elipse">
+            <img src="./assets/images/header-e-4.png" alt="elipse" class="position-absolute end-0 bottom-0 elipse z-1">
+            <div class="container position-relative z-2">
+                <img src="./assets/images/header-1.png" alt="elipse" class="position-absolute  elipse-header-1">
+                <img src="./assets/images/header2.png" alt="elipse"
+                    class="position-absolute  elipse-1 top-0 end-0 me-5 pe-5">
+                <img src="./assets/images/header-3.png" alt="elipse"
+                    class="position-absolute elipse-header-2  ms-5 ps-5">
+                <img src="./assets/images/header-4.png" alt="elipse"
+                    class="position-absolute elipse-header-3  me-5 pe-5">
+                <h1 class="fs-2lg fw-600 color-white ff-montserrat text-center mx-auto mb-0 max-800">Our Agency Brings
+                    Your
+                    Vision
+                    to
+                    Life </h1>
+                <p class="fs-sm fw-400 mx-auto text-center ff-montserrat pb-3 mb-0 color-white max-730">At Cleauv
+                    Media, we
+                    are
+                    all
+                    about creativity. Our team of experts
+                    specializes in delivering innovative solutions that
+                    capture the essence of your brand and bring it to life in new and exciting ways.</p>
+                <button class="btn-contact mx-auto color-white mb-0 curser-pointer">Contact Us</button>
+            </div>
+        </section>
+    </header>
+    <section class="py-sm-5 color-white-1 overflow-hidden">
         <div class="container-fluid py-5">
-            <div class="slider-1">
-                <div class="col-4">
-                    <img src="./assets/images/col-4img1.png" alt="images" class="w-100 me-2">
+            <div class="slider-1 d-flex row">
+                <div class="col-4 px-2">
+                    <img src="./assets/images/col-4img1.png" alt="images" class="w-100">
                 </div>
-                <div class="col-4">
-                    <img src="./assets/images/col-4img2.png" alt="images" class="w-100 mx-2">
+                <div class="col-4 px-2">
+                    <img src="./assets/images/col-4img2.png" alt="images" class="w-100">
                 </div>
-                <div class="col-4">
-                    <img src="./assets/images/col-4img3.png" alt="images" class="w-100 ms-3">
+                <div class="col-4 px-2">
+                    <img src="./assets/images/col-4img3.png" alt="images" class="w-100">
                 </div>
             </div>
         </div>
     </section>
-    <section class="sec3 py-5 position-relative overflow-hidden">
+    <section class="sec3 py-sm-5 py-2 position-relative overflow-hidden ">
         <img src="./assets/images/header-e-1.png" alt="elipse" class="position-absolute start-0 top-0  elipse z-n1">
         <img src="./assets/images/header-e-4.png" alt="elipse" class="position-absolute end-0 bottom-0 elipse z-n1">
+        <img src="./assets/images/circle-elipse.png" alt="circle-elipse"
+            class="position-absolute start-0 bottom-10 z-n1">
         <div class="container custom-1 py-5">
-            <h2 class="fs-lg fw-600 ff-montserrat mx-auto text-center color-light-black">Relevant Works</h2>
-            <p
-                class="fs-sm fw-400 ff-montserrat mx-auto text-center max-700 mb-0 mb-sm-5 pb-0 pb-sm-5 color-light-black">
+            <h2 class="fs-lg fw-600 ff-montserrat mx-auto text-center color-light-black pt-sm-5 pt-0">Relevant Works
+            </h2>
+            <p class="fs-sm fw-400 ff-montserrat mx-auto text-center max-700  color-light-black pb-3">
                 Our team has
                 successfully
                 collaborated with a
                 diverse range of clients across various industries, providing innovative
                 solutions that address their unique challenges.</p>
-            <div class="slider-2 p-4 p-md-2">
-                <img src="./assets/images/book-img-1.png" alt="book">
-                <img src="./assets/images/book-img-2.png" alt="book">
-                <img src="./assets/images/book-img-3.png" alt="book">
+            <div class="slider-2  d-none d-sm-block">
+                <img src="./assets/images/book-img-1.png" alt="book" class="my-2 book-image">
+                <img src="./assets/images/book-img-2.png" alt="book" class="px-3 book-image">
+                <img src="./assets/images/book-img-3.png" alt="book" class="px-4 book-image ">
+            </div>
+            <div class="row d-block d-sm-none">
+                <div class="col-6 col-sm-12 mx-auto">
+                    <img src="./assets/images/book-img-1.png" alt="book" class="my-2 w-100">
+                </div>
+                <div class="col-6 col-sm-12 mx-auto">
+                    <img src="./assets/images/book-img-2.png" alt="book" class="my-2 w-100">
+                </div>
+                <div class="col-6 col-sm-12 mx-auto">
+                    <img src="./assets/images/book-img-3.png" alt="book" class="my-2 w-100">
+                </div>
             </div>
             <div class="text-center">
                 <button class="btn-book ff-montserrat mt-5">Book a Call</button>
             </div>
         </div>
     </section>
-    <section class="light-black-1 py-5  position-relative z-1 overflow-hidden pb-5">
+    <section class="light-black-1  position-relative z-1 overflow-hidden pb-sm-5">
+        <img src="./assets/images/light-2.png" alt="image" class="position-absolute z-2 start-0 top-0">
+        <img src="./assets/images/light-3.png" alt="image" class="position-absolute z-2 end-0 bottom-0">
 
         <img src="./assets/images/service-e-1.png" alt="elipse-1"
             class="position-absolute top-0 start-0 z-1 mt-85 pt-5 ms-5 elipse-1">
@@ -140,96 +164,101 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-6 col-12 d-flex flex-column gap-4">
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Trade show banners
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Trade show banners
                         </p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Logos & branding
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Logos & branding
                         </p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Email graphics</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Email graphics</p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Packaging</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Packaging</p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Social media
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Social media
                             graphics</p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Pitch decks</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Pitch decks</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12 d-flex flex-column gap-4 mt-sm-0">
                     <div class="service-box  py-2 mt-4 mt-sm-0">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Website</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Website</p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Infographics</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Infographics</p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Direct mail</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Direct mail</p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Wireframes</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Wireframes</p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Blog graphics</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Blog graphics</p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Digital ads</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Digital ads</p>
                     </div>
                 </div>
                 <div class="col-lg-2 col-sm-6 col-12 d-flex flex-column gap-4 mt-27 mt-lg-0">
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Slide decks</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Slide decks</p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Resumes</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Resumes</p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Brochures</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Brochures</p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Signage</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Signage</p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Stationery</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Stationery</p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Billboards</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Billboards</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12 mt-27 d-flex flex-column gap-4 mt-lg-0">
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Mobile apps</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Mobile apps</p>
                     </div>
 
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Design systems</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Design systems</p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Business cards</p>
-                    </div>
-
-                    <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">SAAS</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Business cards</p>
                     </div>
 
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Brand guides</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">SAAS</p>
+                    </div>
+
+                    <div class="service-box  py-2">
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Brand guides</p>
                     </div>
                     <div class="service-box  py-2">
-                        <p class="fs-md ff-monsterrat grey fw-400 mx-auto my-auto">Icons</p>
+                        <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Icons</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="color-white-1 position-relative z-1 py-5">
-        <h2 class="fs-lg fw-600 ff-montserrat mx-auto color-light-black mb-3 text-center">Pricing Plans</h2>
-        <p class="fs-sm fw-400 ff-montserrat mx-auto color-light-black text-center max-612 mb-5 pb-4">We offer
+    <section class="color-white-1 position-relative z-1 py-sm-5">
+        <img src="./assets/images/princing-elipse-1.png" alt="e-1"
+            class="position-absolute z-n1 start-0 top-0 elipse-3">
+        <img src="./assets/images/princing-e-2.png" alt="e-2" class="position-absolute end-0 me-5 pe-5 top-25">
+        <img src="./assets/images/princing-e-3.png" alt="e-2"
+            class="position-absolute z-n1 start-0 bottom-25 ps-5 ms-2">
+        <h2 class="fs-lg fw-600 ff-montserrat mx-auto color-light-black mb-sm-3 text-center pt-5">Pricing Plans</h2>
+        <p class="fs-sm fw-400 ff-montserrat mx-auto color-light-black text-center max-612 mb-sm-5 pb-sm-4 m-0">We offer
             flexible and
             competitive pricing plans to suit your specific needs.</p>
         <div class="container">
@@ -237,7 +266,7 @@
                 <div class="col-xl-4 col-md-6 col-12 pt-6 pt-xl-0">
                     <div class="princing-box w-100 px-2 px-sm-4 h-100 ">
                         <div class="most-circle py-3">
-                            <p class="fs-1sm fw-600 ff-montserrat color-light-black most-pop mb-0">Most Popular</p>
+                            <p class="fs-1sm fw-600 ff-montserrat color-light-black most-pop btn-most  mb-0">Most Popular</p>
                         </div>
                         <div class="text-center">
                             <p class="fs-md fw-600 ff-montserrat color-light-black">Monthly</p>
@@ -357,10 +386,10 @@
             </div>
         </div>
         <div class="container py-5">
-            <div class="row justify-content-center pt-5 mt-5">
+            <div class="row justify-content-center pt-5 mt-sm-5">
                 <div class="col-lg-6 col-sm-8 col-12">
                     <div class="br-1 pe-3 text-center">
-                        <img src="./assets/images/col-6img1.png" alt="girl-img">
+                        <img src="./assets/images/col-6img1.png" alt="girl-img" class="col-6img">
                         <p class="fs-lg fw-600 ff-montserrat color-light-black">Book a Call</p>
                         <p class="fs-sm fw-400 ff-montserrat color-light-black max-460 mx-auto">Learn more about
                             how Cleauv
@@ -388,7 +417,9 @@
             </div>
         </div>
     </section>
-    <section class="light-black-1 position-relative py-5  overflow-hidden z-1">
+    <section class="light-black-1 position-relative py-sm-5  overflow-hidden z-1">
+        <img src="./assets/images/light-4.png" alt="light" class="position-absolute start-0 top-0">
+        <img src="./assets/images/light-5.png" alt="light" class="position-absolute end-0 top-0">
         <img src="./assets/images/header-e4.png" alt="elipse" class="start-0 position-absolute top-0 ms-5 ps-5 elipse">
         <img src="./assets/images//headere2.png" alt="elipse" class="end-0 position-absolute bottom-0 me-5 elipse">
         <div class="container position-relative my-5 text-center z-1">
@@ -407,7 +438,7 @@
         </div>
     </section>
 
-    <section class="overflow-hidden py-md-5 py-2 color-light-white ">
+    <section class="overflow-hidden py-5 py-2 color-light-white pb-4">
         <h2 class="fs-lg fw-600  ff-montserrat color-light-black text-center pt-md-5 pt-2">What Our Customer Say
         </h2>
         <p class="fs-sm fw-400 ff-Montserrat color-light-black text-center">We offer flexible and competitive pricing
@@ -415,23 +446,27 @@
             to suit your specific needs. </p>
         <div class="slider-3">
             <div class="slider3-card">
-                <div class="d-lg-flex p-lg-5 p-md-3 p-2 gap-4">
-                    <div class="d-flex align-items-center align-items-lg-start gap-3">
-                        <img src="./assets/images/slider-image-1.png" alt="girl-img">
-                        <div class="d-flex flex-column">
-                            <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-lg-none d-block">Arlene McCoy
+                <div class="d-lg-flex p-xl-4  p-md-3 p-2 gap-2 gap-xl-4">
+                    <div class="d-flex align-items-center  gap-3">
+                        <img src="./assets/images/slider-image-1.png" alt="girl-img"
+                            class="justify-content-center d-flex w-sm-130 w-md-140">
+                        <div class="d-flex flex-column d-block d-lg-none">
+                            <p class="fs-md ff-montserrat color-light-black fw-600 mb-0">Arlene McCoy
                             </p>
-                            <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-50 d-lg-none d-block">CEO of
+                            <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-50">CEO of
                                 Mind.ly
                             </p>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-none d-lg-block">Arlene McCoy</p>
-                        <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-50 d-lg-block d-none">CEO of
-                            Mind.ly
-                        </p>
-                        <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-75">Contrary to popular belief,
+                        <div class="d-none d-lg-block">
+                            <p class="fs-md ff-montserrat color-light-black fw-600 mb-0">Arlene McCoy</p>
+                            <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-5">CEO of
+                                Mind.ly
+                            </p>
+                        </div>
+                        <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-75 mb-0 pt-2 pt-sm-0">Contrary
+                            to popular belief,
                             Lorem
                             Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                             from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
@@ -444,9 +479,9 @@
             </div>
 
             <div class="slider3-card">
-                <div class="d-lg-flex p-lg-5 p-md-3 p-2 gap-4">
-                    <div class="d-flex align-items-center align-items-lg-start gap-3">
-                        <img src="./assets/images/slider-image-3.png" alt="girl-img">
+                <div class="d-lg-flex p-xl-4  p-md-3 p-2 gap-2 gap-xl-4">
+                    <div class="d-flex align-items-center  gap-3">
+                        <img src="./assets/images/slider-image-3.png" alt="girl-img" class="w-sm-130 w-md-140">
                         <div class="d-flex flex-column">
                             <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-lg-none d-block">Arlene McCoy
                             </p>
@@ -456,11 +491,16 @@
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-none d-lg-block">Arlene McCoy</p>
-                        <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-50 d-lg-block d-none">CEO of
-                            Mind.ly
-                        </p>
-                        <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-75">Contrary to popular belief,
+                        <div class="d-none d-lg-block">
+                            <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-none d-lg-block">Arlene McCoy
+                            </p>
+                            <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-50 d-lg-block d-none">CEO of
+                                Mind.ly
+                            </p>
+                        </div>
+                        <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-75 mb-0  pt-2 pt-sm-0">
+                            Contrary to popular
+                            belief,
                             Lorem
                             Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                             from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
@@ -472,9 +512,9 @@
                 </div>
             </div>
             <div class="slider3-card">
-                <div class="d-lg-flex p-lg-5 p-md-3 p-2 gap-4">
-                    <div class="d-flex align-items-center align-items-lg-start gap-3">
-                        <img src="./assets/images/slider-image-2.png" alt="girl-img">
+                <div class="d-lg-flex p-xl-4  p-md-3 p-2 gap-2 gap-xl-4">
+                    <div class="d-flex align-items-center  gap-3">
+                        <img src="./assets/images/slider-image-2.png" alt="girl-img" class="w-sm-130 w-md-140">
                         <div class="d-flex flex-column">
                             <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-lg-none d-block">Arlene McCoy
                             </p>
@@ -484,11 +524,16 @@
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-none d-lg-block">Arlene McCoy</p>
-                        <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-50 d-lg-block d-none">CEO of
-                            Mind.ly
-                        </p>
-                        <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-75">Contrary to popular belief,
+                        <div class="d-none d-lg-block">
+                            <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-none d-lg-block">Arlene McCoy
+                            </p>
+                            <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-50 d-lg-block d-none">CEO of
+                                Mind.ly
+                            </p>
+                        </div>
+                        <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-75 mb-0 pt-2 pt-sm-0">Contrary
+                            to popular
+                            belief,
                             Lorem
                             Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                             from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
@@ -500,9 +545,9 @@
                 </div>
             </div>
             <div class="slider3-card">
-                <div class="d-lg-flex p-lg-5 p-md-3 p-2 gap-4">
-                    <div class="d-flex align-items-center align-items-lg-start gap-3">
-                        <img src="./assets/images/slider-image-3.png" alt="girl-img">
+                <div class="d-lg-flex p-xl-4  p-md-3 p-2 gap-2 gap-xl-4">
+                    <div class="d-flex align-items-center  gap-3">
+                        <img src="./assets/images/slider-image-3.png" alt="girl-img" class="w-sm-130 w-md-140">
                         <div class="d-flex flex-column">
                             <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-lg-none d-block">Arlene McCoy
                             </p>
@@ -512,13 +557,18 @@
                         </div>
                     </div>
                     <div class="d-flex flex-column">
-                        <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-none d-lg-block">Arlene McCoy</p>
-                        <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-50 d-lg-block d-none">CEO of
-                            Mind.ly
-                        </p>
-                        <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-75">Contrary to popular belief,
+                        <div class="d-none d-lg-block">
+                            <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-none d-lg-block">Arlene McCoy
+                            </p>
+                            <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-50 d-lg-block d-none">CEO of
+                                Mind.ly
+                            </p>
+                        </div>
+                        <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-75 mb-0 pt-2 pt-sm-0">Contrary
+                            to popular
+                            belief,
                             Lorem
-                            Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+                            Ipsum is not simply random text. It h as roots in a piece of classical Latin literature
                             from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
                             Hampden-Sydney College in Virginia,
                             looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
@@ -532,7 +582,7 @@
 
     </section>
     <section class="color-light-white py-5">
-        <div class="custom-2 pt-4 position-relative z-5">
+        <div class="custom-2 pt-sm-5 position-relative z-5 pb-sm-5">
             <img src="./assets/images/service-e-3.png" alt="service-e-3">
             <h2 class="fs-lg color-light-black fw-600 mb-4 ff-montserrat text-center">Frequently Asked Questions
             </h2>
@@ -706,25 +756,30 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-6 col-12 mt-lg-0">
+                    <div class="col-lg-6 col-12 mt-lg-0 position-relative">
                         <div class="row justify-content-lg-between">
                             <div class="col-sm-3 col-6">
                                 <ul class="p-0 d-flex flex-column gap-3 pt-5  pt-lg-0">
                                     <li class="fs-sm fw-400 curser-pointer ff-montserrat grey"><a href=""></a>
                                         Quick
                                         Links</li>
-                                    <li><a href="" class="fs-sm fw-400 curser-pointer ff-montserrat light-grey home">
+                                    <li><a href=""
+                                            class="fs-sm fw-400 curser-pointer ff-montserrat light-grey home-2 position-relative">
                                             Home
                                         </a> </li>
-                                    <li><a href="" class="fs-sm fw-400 curser-pointer ff-montserrat light-grey home">
+                                    <li><a href=""
+                                            class="fs-sm fw-400 curser-pointer ff-montserrat light-grey  home-2 position-relative">
                                             About
                                         </a> </li>
-                                    <li><a href="" class="fs-sm fw-400 curser-pointer ff-montserrat light-grey">
+                                    <li><a href=""
+                                            class="fs-sm fw-400 curser-pointer ff-montserrat light-grey  home-2 position-relative">
                                             Pricing</a>
                                     </li>
-                                    <li><a href="" class="fs-sm fw-400 curser-pointer ff-montserrat light-grey">
+                                    <li><a href=""
+                                            class="fs-sm fw-400 curser-pointer ff-montserrat light-grey  home-2 position-relative">
                                             Services</a></li>
-                                    <li><a href="" class="fs-sm fw-400 curser-pointer ff-montserrat light-grey">
+                                    <li><a href=""
+                                            class="fs-sm fw-400 curser-pointer ff-montserrat light-grey  home-2 position-relative">
                                             Faq
                                         </a> </li>
                                 </ul>
@@ -732,14 +787,15 @@
                             <div class="col-sm-3 col-6">
                                 <ul class="p-0 d-flex flex-column gap-3 pt-5  pt-lg-0">
                                     <li class="fs-sm fw-400 curser-pointer ff-montserrat grey">Company</li>
-                                    <li><a href="" class="fs-sm fw-400 curser-pointer ff-montserrat light-grey">Careers
+                                    <li><a href=""
+                                            class="fs-sm fw-400 curser-pointer ff-montserrat light-grey  home-2 position-relative">Careers
                                         </a>
                                     </li>
                                     <li><a href=""
-                                            class="fs-sm fw-400 curser-pointer ff-montserrat light-grey">Security</a>
+                                            class="fs-sm fw-400 curser-pointer ff-montserrat light-grey  home-2 position-relative">Security</a>
                                     </li>
                                     <li><a href=""
-                                            class="fs-sm fw-400 curser-pointer ff-montserrat light-grey">Legal</a>
+                                            class="fs-sm fw-400 curser-pointer ff-montserrat light-grey  home-2 position-relative">Legal</a>
                                     </li>
                                 </ul>
                             </div>
@@ -748,7 +804,7 @@
                                     <li class="fs-sm fw-400 curser-pointer ff-montserrat grey">Contact Us
                                     </li>
                                     <li><a href=""
-                                            class="fs-sm fw-400 curser-pointer ff-montserrat light-grey">info@cleauvmedia.</a>
+                                            class="fs-sm fw-400 curser-pointer ff-montserrat light-grey  home-2 position-relative">info@cleauvmedia.</a>
                                     </li>
                                 </ul>
                             </div>
