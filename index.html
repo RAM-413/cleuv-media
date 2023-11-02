@@ -17,6 +17,16 @@
 </head>
 
 <body>
+    <!-- preloader -->
+    <div id="preloder"
+        class="vh-100 bg-black d-flex flex-column gap-3 justify-content-center align-items-center position-fixed top-0 start-0 w-100">
+        <img src="/assets/images/nav-logo.svg" alt="logo">
+        <div class="loader"></div>
+    </div>
+    <!-- back-to-top -->
+    <button id="top" class="position-fixed" onclick="up()"><img class="w-100" src="/assets/images/back-to-top.jpg"
+            alt="back-to-top"></button>
+            
     <header class="position-relative overflow-hidden z-3">
         <img src="./assets/images/light-1.png" alt="light" class="position-absolute z-2">
         <nav class="nav-bg py-4 position-fixed z-3 w-100 top-0 start-0">
@@ -64,7 +74,7 @@
             </div>
         </nav>
         <section
-            class="light-black-1 flex-grow-1 min-vh-100  d-flex flex-column justify-content-center  position-relative z-1 overflow-hidden pt-5 mt-5">
+            class="light-black-1 flex-grow-1 min-vh-100  d-flex flex-column justify-content-center   z-1 overflow-hidden pt-5 mt-5">
             <img src="./assets/images/header-e-1.png" alt="elipse" class="position-absolute start-0  elipse-3 z-1">
             <img src="./assets/images/header-e-2.png" alt="elipse" class="position-absolute end-0  elipse-3 z-1">
             <img src="./assets/images/header-e-3.png" alt="elipse"
@@ -117,34 +127,35 @@
         <div class="container custom-1 py-5">
             <h2 class="fs-lg fw-600 ff-montserrat mx-auto text-center color-light-black pt-sm-5 pt-0">Relevant Works
             </h2>
-            <p class="fs-sm fw-400 ff-montserrat mx-auto text-center max-700  color-light-black pb-3">
+            <p class="fs-sm fw-400 ff-montserrat mx-auto text-center max-700  color-light-black pb-5">
                 Our team has
                 successfully
                 collaborated with a
                 diverse range of clients across various industries, providing innovative
                 solutions that address their unique challenges.</p>
-            <div class="slider-2  d-none d-sm-block">
-                <img src="./assets/images/book-img-1.png" alt="book" class="my-2 book-image">
-                <img src="./assets/images/book-img-2.png" alt="book" class="px-3 book-image">
-                <img src="./assets/images/book-img-3.png" alt="book" class="px-4 book-image ">
+            <div class="slider-2 pb-5 d-none d-md-block">
+                <img src="./assets/images/book-img-1.png" alt="book-img-1" class="px-2">
+                <img src="./assets/images/book-img-2.png" alt="book-img-2" class="px-2">
+                <img src="./assets/images/book-img-3.png" alt="book-img-3" class="px-2">
             </div>
-            <div class="row d-block d-sm-none">
-                <div class="col-6 col-sm-12 mx-auto">
-                    <img src="./assets/images/book-img-1.png" alt="book" class="my-2 w-100">
+            <div class="container">
+                <div class="row flex-column d-block d-md-none">
+                    <div class="col-12">
+                        <img src="./assets/images/book-img-1.png" alt="book-img-4" class="w-100 mt-4">
+                    </div>
+                    <div class="col-12">
+                        <img src="./assets/images/book-img-2.png" alt="book-img-4" class="w-100 mt-4">
+                    </div>
+                    <div class="col-12">
+                        <img src="./assets/images/book-img-3.png" alt="book-img-4" class="w-100 mt-4">
+                    </div>
                 </div>
-                <div class="col-6 col-sm-12 mx-auto">
-                    <img src="./assets/images/book-img-2.png" alt="book" class="my-2 w-100">
-                </div>
-                <div class="col-6 col-sm-12 mx-auto">
-                    <img src="./assets/images/book-img-3.png" alt="book" class="my-2 w-100">
+                <div class="text-center">
+                    <button class="btn-book ff-montserrat mt-5">Book a Call</button>
                 </div>
             </div>
-            <div class="text-center">
-                <button class="btn-book ff-montserrat mt-5">Book a Call</button>
-            </div>
-        </div>
     </section>
-    <section class="light-black-1  position-relative z-1 overflow-hidden pb-sm-5">
+    <section class="light-black-1  position-relative z-1 overflow-hidden pb-sm-5  py-sm-5">
         <img src="./assets/images/light-2.png" alt="image" class="position-absolute z-2 start-0 top-0">
         <img src="./assets/images/light-3.png" alt="image" class="position-absolute z-2 end-0 bottom-0">
 
@@ -157,94 +168,94 @@
         <img src="./assets/images/service-e-4.png" alt="elipse-1"
             class="position-absolute bottom-0 end-0 z-1 mb-5 pb-5 elipse-1">
         <div class="container position-relative z-2 py-5">
-            <h2 class="fs-lg fw-600 ff-montserrat mx-auto grey mb-0 text-center">Services</h2>
-            <p class="fs-sm fw-400 ff-montserrat mx-auto grey text-center max-612 mb-5 ">Exceptional
+            <h2 class="fs-lg fw-600 ff-montserrat mx-auto grey mb-0 text-center ">Services</h2>
+            <p class="fs-sm fw-400 ff-montserrat mx-auto grey text-center max-612 mb-5 pt-2">Exceptional
                 services that
                 redefine excellence, exceeding expectations every time.</p>
             <div class="row">
                 <div class="col-lg-4 col-sm-6 col-12 d-flex flex-column gap-4">
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Trade show banners
                         </p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Logos & branding
                         </p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Email graphics</p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Packaging</p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Social media
                             graphics</p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Pitch decks</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12 d-flex flex-column gap-4 mt-sm-0">
-                    <div class="service-box  py-2 mt-4 mt-sm-0">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start mt-4 mt-sm-0">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Website</p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Infographics</p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Direct mail</p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Wireframes</p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Blog graphics</p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Digital ads</p>
                     </div>
                 </div>
                 <div class="col-lg-2 col-sm-6 col-12 d-flex flex-column gap-4 mt-27 mt-lg-0">
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Slide decks</p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Resumes</p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Brochures</p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Signage</p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Stationery</p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Billboards</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12 mt-27 d-flex flex-column gap-4 mt-lg-0">
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Mobile apps</p>
                     </div>
 
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Design systems</p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Business cards</p>
                     </div>
 
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">SAAS</p>
                     </div>
 
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Brand guides</p>
                     </div>
-                    <div class="service-box  py-2">
+                    <div class="service-box  py-2 d-flex justify-content-center justify-content-sm-start">
                         <p class="fs-md ff-monsterrat grey fw-400 ps-3 my-auto">Icons</p>
                     </div>
                 </div>
@@ -265,8 +276,9 @@
             <div class="row justify-content-center">
                 <div class="col-xl-4 col-md-6 col-12 pt-6 pt-xl-0">
                     <div class="princing-box w-100 px-2 px-sm-4 h-100 ">
-                        <div class="most-circle py-3">
-                            <p class="fs-1sm fw-600 ff-montserrat color-light-black most-pop btn-most  mb-0">Most Popular</p>
+                        <div class="most-circle py-3 btn-most">
+                            <p class="fs-1sm fw-600 ff-montserrat color-light-black most-pop   mb-0">Most
+                                Popular</p>
                         </div>
                         <div class="text-center">
                             <p class="fs-md fw-600 ff-montserrat color-light-black">Monthly</p>
@@ -299,14 +311,14 @@
                                     cancel anytime
                                 </p>
                             </div>
-                            <button class="btn-started mb-4 fs-sm fw-600 ff-montserrat lightblack btn-start mt-4">Get
+                            <button class="btn-started mb-4 fs-sm fw-600 ff-montserrat lightblack  mt-4">Get
                                 Started</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6 col-12 pt-6 pt-xl-0">
                     <div class="princing-box w-100 px-2 px-sm-4 h-100 ">
-                        <div class="most-circle py-3">
+                        <div class="most-circle py-3 btn-most">
                             <p class="fs-1sm fw-600 ff-montserrat color-light-black most-pop mb-0">Paid Quarterly</p>
                         </div>
                         <div class="text-center">
@@ -341,14 +353,14 @@
                                 </p>
                             </div>
 
-                            <button class="btn-started mb-4 fs-sm fw-600 ff-montserrat lightblack btn-start mt-4 ">Get
+                            <button class="btn-started mb-4 fs-sm fw-600 ff-montserrat lightblack mt-4 ">Get
                                 Started</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6 col-12 pt-6 pt-xl-0">
                     <div class="princing-box w-100 px-2 px-sm-4 h-100 ">
-                        <div class="most-circle py-3">
+                        <div class="most-circle py-3 btn-most">
                             <p class="fs-1sm fw-600 ff-montserrat color-light-black most-pop mb-0">One Time Payment</p>
                         </div>
                         <div class="text-center">
@@ -378,7 +390,7 @@
                                 <p class="fs-1sm fw-600 ff-montserrat m-0 lightblack most-pop">Social media campaign
                                 </p>
                             </div>
-                            <button class="btn-started mb-4 fs-sm fw-600 ff-montserrat lightblack btn-start mt-4">Get
+                            <button class="btn-started mb-4 fs-sm fw-600 ff-montserrat lightblack  mt-4">Get
                                 Started</button>
                         </div>
                     </div>
@@ -403,7 +415,7 @@
                 <div class="col-lg-6 col-sm-8 col-12 mt-5 mt-lg-0">
                     <div class="text-center">
                         <img src="./assets/images/col-6img2.png" alt="girl-img">
-                        <p class="fs-lg fw-600 ff-montserrat color-light-black">Refer a friend & earn</p>
+                        <p class="fs-lg fw-600 ff-montserrat color-light-black pt-2">Refer a friend & earn</p>
                         <p class="fs-sm fw-400 ff-montserrat color-light-black max-351 mx-auto">Earn 5% monthly
                             recurring
                             commissions
@@ -448,25 +460,26 @@
             <div class="slider3-card">
                 <div class="d-lg-flex p-xl-4  p-md-3 p-2 gap-2 gap-xl-4">
                     <div class="d-flex align-items-center  gap-3">
-                        <img src="./assets/images/slider-image-1.png" alt="girl-img"
-                            class="justify-content-center d-flex w-sm-130 w-md-140">
-                        <div class="d-flex flex-column d-block d-lg-none">
-                            <p class="fs-md ff-montserrat color-light-black fw-600 mb-0">Arlene McCoy
+                        <img src="./assets/images/slider-image-1.png" alt="girl-img" class="w-140">
+                        <div class="d-flex flex-column">
+                            <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-lg-none d-block">Arlene McCoy
                             </p>
-                            <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-50">CEO of
+                            <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-50 d-lg-none d-block">CEO of
                                 Mind.ly
                             </p>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
                         <div class="d-none d-lg-block">
-                            <p class="fs-md ff-montserrat color-light-black fw-600 mb-0">Arlene McCoy</p>
-                            <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-5">CEO of
+                            <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-none d-lg-block">Arlene McCoy
+                            </p>
+                            <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-50 d-lg-block d-none">CEO of
                                 Mind.ly
                             </p>
                         </div>
-                        <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-75 mb-0 pt-2 pt-sm-0">Contrary
-                            to popular belief,
+                        <p class="fs-sm fw-400 ff-montserrat color-light-black opacity-75 mb-0  pt-2 pt-sm-0">
+                            Contrary to popular
+                            belief,
                             Lorem
                             Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                             from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
@@ -481,7 +494,7 @@
             <div class="slider3-card">
                 <div class="d-lg-flex p-xl-4  p-md-3 p-2 gap-2 gap-xl-4">
                     <div class="d-flex align-items-center  gap-3">
-                        <img src="./assets/images/slider-image-3.png" alt="girl-img" class="w-sm-130 w-md-140">
+                        <img src="./assets/images/slider-image-3.png" alt="girl-img" class="w-140">
                         <div class="d-flex flex-column">
                             <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-lg-none d-block">Arlene McCoy
                             </p>
@@ -514,7 +527,7 @@
             <div class="slider3-card">
                 <div class="d-lg-flex p-xl-4  p-md-3 p-2 gap-2 gap-xl-4">
                     <div class="d-flex align-items-center  gap-3">
-                        <img src="./assets/images/slider-image-2.png" alt="girl-img" class="w-sm-130 w-md-140">
+                        <img src="./assets/images/slider-image-2.png" alt="girl-img" class="w-140">
                         <div class="d-flex flex-column">
                             <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-lg-none d-block">Arlene McCoy
                             </p>
@@ -547,7 +560,7 @@
             <div class="slider3-card">
                 <div class="d-lg-flex p-xl-4  p-md-3 p-2 gap-2 gap-xl-4">
                     <div class="d-flex align-items-center  gap-3">
-                        <img src="./assets/images/slider-image-3.png" alt="girl-img" class="w-sm-130 w-md-140">
+                        <img src="./assets/images/slider-image-3.png" alt="girl-img" class="w-140">
                         <div class="d-flex flex-column">
                             <p class="fs-md ff-montserrat color-light-black fw-600 mb-0 d-lg-none d-block">Arlene McCoy
                             </p>
@@ -752,8 +765,6 @@
                                     src="./assets/images/facebook.png" alt=""></a>
                             <a href="https://www.instagram.com/" target="_blank" class="svg"><img
                                     src="./assets/images/instagram.png" alt=""></a>
-
-
                         </div>
                     </div>
                     <div class="col-lg-6 col-12 mt-lg-0 position-relative">
